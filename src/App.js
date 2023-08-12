@@ -11,7 +11,6 @@ import { checkSubscription } from './actions/subscription';
 import { ChatAiProvider } from "./components/ChatAI/ChatAiContext";
 import { fetchChat } from "./actions/chat";
 
-
 function App() {
 
   const dispatch = useDispatch();
